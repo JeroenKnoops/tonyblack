@@ -41,9 +41,6 @@ end
 # Use unicorn as the app server
 # gem 'unicorn'
 
-# Use Capistrano for deployment
-gem 'capistrano', group: :development
-
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
@@ -53,8 +50,8 @@ gem 'newrelic_rpm'
 group :development do
   gem "better_errors", ">= 0.6.0"
   gem "binding_of_caller"
-  gem "capistrano"
   gem 'rvm-capistrano'
+  gem 'capistrano'
 end
 
 group :development, :test do
@@ -66,5 +63,5 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.15.1'
+  gem 'pg'
 end

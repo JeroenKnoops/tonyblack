@@ -1,4 +1,12 @@
-$gridColumnWidth: 80px;
-//@import "variables";
+@import "partials/variables";
 
+@import "partials/ie-stuff";
 @import "bootstrap";
+
+@import "partials/base";
+@import "partials/boxes";
+
+@import "partials/header";
+@import "partials/footer";
+
+@import "partials/soundcloud";

@@ -1,0 +1,31 @@
+.dark-shadow {
+  height: 4px;
+  display: block;
+  background: $dark-shadow;
+}
+
+.box {
+  -moz-box-shadow: 5px 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 5px 5px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px rgba(0,0,0,0.5);
+  background: $blue-dark;
+  padding: 5px;
+  margin: 0px 5px 10px 5px;
+}
+
+
+.box-container {
+  background: $black;
+
+  .box-title {
+    color: white;
+    background: $blue-dark;
+    padding-bottom: 2px;
+  }
+  
+  .box-content {
+    padding: 7px;
+  }
+}
+
+  

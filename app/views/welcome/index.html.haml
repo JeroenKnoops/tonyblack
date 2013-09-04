@@ -1,4 +1,7 @@
-.container
-  %h1 TonyBlack
-
-  %p= link_to "Github", "https://github.com/jeroenknoops/", :class => "btn"
+.row-fluid
+  .span6
+    .box= render "who"
+    .box= render "wip"
+      
+  .span6
+    .box= render "soundclouds"

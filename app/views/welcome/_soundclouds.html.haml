@@ -1,0 +1,5 @@
+.box-container
+  .box-title Sound fragments
+  .box-content
+    - @soundcloud_ids.each do |soundcloud_id|
+      = soundcloud(soundcloud_id)
